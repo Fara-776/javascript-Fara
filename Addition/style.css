@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    /* border: solid 2px rgb(18, 17, 17); */
+    height: 400px;
+}
+
+.box{
+
+  
+    border:solid 2px rgb(195, 16, 16);
+    height: 200px;
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 20px;
+    text-align: center;
+    background-color: aqua;
+    
+}
+.box h1{
+
+    margin-top: 40%;
+}

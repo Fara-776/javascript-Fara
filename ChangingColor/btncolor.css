@@ -1,0 +1,82 @@
+.container {
+    display: block;
+    /* border: solid 2px rgb(18, 17, 17); */
+    height: 400px;
+    background-color: white
+}
+
+#Box {
+
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid #000;
+    margin-left: 40%;
+    border-radius: 5PX;
+
+
+}
+
+#red {
+    background-color: red;
+    color: white;
+    margin-left: 30%;
+    margin-right: 5%;
+    height: 40PX;
+    width: 6%;
+    border-radius: 4PX;
+
+}
+
+#green {
+    background-color: green;
+    color: white;
+    margin-right: 4%;
+    height: 40PX;
+    width: 6%;
+    border-radius: 4px;
+
+
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+    margin-right: 4%;
+    height: 40PX;
+    width: 6%;
+    border-radius: 4px;
+
+
+}
+
+#yellow {
+    background-color: yellow;
+    color: black;
+    margin-right: 4%;
+    height: 40PX;
+    width: 6%;
+    border-radius: 4px;
+
+
+}
+
+#purple {
+    background-color: purple;
+    color: white;
+    margin-right: 4%;
+    height: 40PX;
+    width: 6%;
+    border-radius: 4px;
+
+
+}
+
+#brown {
+    background-color: brown;
+    color: white;
+    height: 40PX;
+    width: 6%;
+    border-radius: 4px;
+
+}

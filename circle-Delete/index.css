@@ -1,0 +1,36 @@
+#container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+ .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: rgb(241, 66, 241);
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    color: black;
+}
+
+#deletedData {
+    margin-top: 20px;
+}
+
+.deletedCircle {
+    background-color: rgb(241, 66, 241);
+    color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+    text-decoration: solid black;
+    line-height: 50px;
+    display: inline-block;
+    border: 2px solid black;
+
+}

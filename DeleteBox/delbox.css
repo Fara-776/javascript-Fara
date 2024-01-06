@@ -1,0 +1,18 @@
+.container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.box{
+    justify-content: center;
+    border: 2px solid green;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;   
+    background-color: pink;
+}
+.box h1{
+    margin-left: 40%;
+}

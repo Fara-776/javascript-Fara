@@ -1,0 +1,73 @@
+.container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    border: 2px solid palevioletred;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+.deletedBox {
+    display: inline-block;
+    border: 2px solid palevioletred;
+    background-color: aquamarine;
+    border-radius: 4px;
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+#deletedData {
+    margin-top: 20px;
+}
+
+#btn {
+    margin-right: 20px;
+    display: inline-block;
+    height: 30px;
+    background-color: rgb(35, 245, 35);
+    box-shadow: 1px 1px gray;
+    border-radius: 4px;
+    margin-left: 30px;
+
+}
+
+#btn:hover {
+    background-color: rgb(255, 8, 8);
+    color: black;
+    border-radius: 4px;
+
+
+}
+
+#start {
+    margin-top: 5%;
+    height: 20px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+
+#end {
+    height: 20px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 4px;
+
+
+}
