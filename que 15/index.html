@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lottery Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- <center>    <h1>....LET'S TRY YOUR LUCK HERE....</h1>
+    </center> -->
+    <div class="container">
+        <input type="number"  placeholder ="Enter Amount" id="amt">
+        <button id="btn" onclick="msg()">confirm</button>
+        <div id="invest">
+            
+        <h1></h1>
+        </div>   
+    </div>
+    <div class="numbers">
+            <input type="number" placeholder="" max="1" class="usernum">
+        <input type="number" class="usernum">
+        <input type="number" class="usernum">
+        <input type="number" class="usernum">
+        <button id="btn1" > GenLottery </button>
+    </div>
+    
+
+    <!-- for Lottery gif -->
+    <div id="jackpot" style="display: none;">
+        <video id="spinnerVideo"  src="jackpot.mp4" background-color=" rgba(0, 0, 0, 0)" width="300" height="200" autoplay loop></video>
+        
+    </div>
+
+    <div id="dynamicInputContainer">
+        <!-- Input boxes will be added here dynamically -->
+      </div>
+
+      <div id="winAmt" style="display: none;">
+        <h1><center>Winning Amt Is...0</center></h1>
+      </div>
+
+    <script src="i.js"></script>
+</body>
+</html>
