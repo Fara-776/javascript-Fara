@@ -8,7 +8,7 @@ setInterval(() => {
 ct=date.toLocaleTimeString();
 // console.log(ct);
 
-if (ct === '12:13:00 AM') {
+if (ct === '12:18:30 PM') {
     showNewYearMessage = true;
 }
 if (showNewYearMessage) {

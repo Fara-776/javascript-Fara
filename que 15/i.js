@@ -68,6 +68,7 @@ function randomlottery() {
 
                 amt.value = amt.value * 10;
                 // console.log(amt.value);
+                winamt.style.display='block';
                 winamt.innerHTML=`<center><h1>Congratulations! You Have Won ${amt.value} Rupees</h1></center>`;
             }
             currentIndex++;
